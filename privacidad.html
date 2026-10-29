@@ -1,65 +1,122 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-  <title>Política de Privacidad | Saviro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Política de privacidad de Saviro, aplicación de finanzas personales de InnovaJKSoft.">
+  <title>Política de privacidad | Saviro</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.7;
-      margin: 0;
-      background: #f6f8fc;
-      color: #253047;
-    }
-    header {
-      background: #2D3FA8;
-      color: white;
-      padding: 45px 20px;
-      text-align: center;
-    }
-    main {
-      max-width: 850px;
-      margin: 30px auto;
-      padding: 35px;
-      background: white;
-      border-radius: 16px;
-    }
-    h2 { color: #2D3FA8; }
-    footer {
-      text-align: center;
-      padding: 25px;
-      color: #59618F;
-    }
+    :root{--blue:#2D3FA8;--ink:#202942;--muted:#59618F;--bg:#F6F8FC;--border:#E1E6F0;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+    a{color:var(--blue);text-underline-offset:3px}a:focus-visible{outline:3px solid #F8BC39;outline-offset:3px}
+    .hero{background:linear-gradient(125deg,#2D3FA8,#59618F);color:#fff;padding:56px 20px 50px;text-align:center}
+    .brand{display:inline-block;border:1px solid #ffffff66;border-radius:99px;padding:4px 18px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:750}
+    h1{font-size:clamp(30px,5vw,46px);letter-spacing:-.04em;line-height:1.2;margin:18px 0 8px} .subtitle{margin:0;opacity:.94}
+    .shell{max-width:930px;margin:-22px auto 40px;padding:0 18px}.sheet{background:var(--white);border:1px solid var(--border);border-radius:20px;box-shadow:0 12px 40px #20294210;padding:clamp(22px,5vw,50px)}
+    .meta{font-size:14px;color:var(--muted);margin:0 0 18px}.intro{font-size:17px}.toc{background:#F2F5FC;border:1px solid var(--border);border-radius:12px;padding:18px 22px;margin:25px 0 32px}.toc strong{display:block;margin-bottom:8px}.toc ul{margin:0;padding-left:20px;columns:2;column-gap:30px}
+    h2{color:var(--blue);font-size:23px;line-height:1.3;letter-spacing:-.025em;margin:36px 0 10px}h3{font-size:17px;margin:19px 0 6px}p{margin:10px 0 16px}ul{padding-left:24px;margin-top:8px}li{margin:6px 0}
+    .note{background:#F2F5FC;border-left:4px solid var(--blue);padding:16px 18px;border-radius:0 10px 10px 0;margin:22px 0}
+    .footer{text-align:center;color:var(--muted);padding:0 20px 36px;font-size:14px}
+    @media(max-width:600px){.toc ul{columns:1}.hero{padding-top:42px}.sheet{border-radius:15px}}
   </style>
 </head>
 <body>
-  <header>
-    <h1>Saviro</h1>
-    <p>Política de Privacidad</p>
+  <header class="hero">
+    <span class="brand">InnovaJKSoft</span>
+    <h1>Política de privacidad</h1>
+    <p class="subtitle">Saviro · Control de finanzas personales</p>
   </header>
+  <main class="shell">
+    <article class="sheet">
+      <p class="meta"><strong>Última actualización:</strong> 29 de octubre de 2026 · <strong>Versión:</strong> Saviro Free (Android e iOS)</p>
+      <p class="intro">En InnovaJKSoft respetamos la privacidad de quienes utilizan <strong>Saviro</strong>. Esta política explica cómo se manejan los datos en la versión gratuita de la aplicación, incluidos los datos introducidos por el usuario y la información que pueden tratar los proveedores de publicidad.</p>
+      <div class="note"><strong>Resumen:</strong> Saviro permite registrar información financiera en el dispositivo. La versión gratuita muestra anuncios de Google AdMob. Los proveedores publicitarios pueden recopilar datos técnicos y usar identificadores del dispositivo según sus políticas y las elecciones de privacidad disponibles.</div>
+      <nav class="toc" aria-label="Contenido de la política">
+        <strong>Contenido</strong>
+        <ul>
+          <li><a href="#responsable">Responsable y contacto</a></li>
+          <li><a href="#datos">Datos tratados</a></li>
+          <li><a href="#almacenamiento">Almacenamiento local</a></li>
+          <li><a href="#publicidad">Publicidad y terceros</a></li>
+          <li><a href="#consentimiento">Consentimiento y controles</a></li>
+          <li><a href="#permisos">Permisos del dispositivo</a></li>
+          <li><a href="#seguridad">Seguridad y conservación</a></li>
+          <li><a href="#derechos">Derechos y eliminación</a></li>
+          <li><a href="#menores">Menores de edad</a></li>
+          <li><a href="#cambios">Cambios de la política</a></li>
+        </ul>
+      </nav>
 
-  <main>
-    <h2>Documento en preparación</h2>
-    <p>
-      InnovaJKSoft está preparando la política
-      de privacidad de Saviro, aplicación
-      de administración de finanzas personales.
-    </p>
-    <p>
-      Este documento será actualizado con la
-      información sobre almacenamiento local,
-      publicidad de Google AdMob, consentimiento
-      y derechos de los usuarios antes de
-      su publicación oficial.
-    </p>
+      <section id="responsable">
+        <h2>1. Responsable y contacto</h2>
+        <p><strong>Aplicación:</strong> Saviro.<br><strong>Desarrollador:</strong> InnovaJKSoft.<br><strong>País de operación:</strong> Guatemala.<br><strong>Contacto de privacidad:</strong> <a href="mailto:saviro@innovajksoft.net">saviro@innovajksoft.net</a>.</p>
+        <p>Puedes escribir a este correo para consultar cómo se trata tu información o solicitar ayuda respecto de la privacidad de Saviro.</p>
+      </section>
+
+      <section id="datos">
+        <h2>2. Qué información se trata</h2>
+        <h3>Información que introduces en Saviro</h3>
+        <p>Para ofrecer las funciones de control financiero, puedes registrar categorías, ingresos, gastos, montos, fechas, descripciones, presupuestos y otros datos relacionados con tus finanzas personales. Estos datos se utilizan para mostrar tus movimientos, resúmenes y organización de gastos dentro de la aplicación.</p>
+        <h3>Datos técnicos relacionados con publicidad</h3>
+        <p>La aplicación integra Google AdMob para mostrar anuncios. Según el dispositivo, la configuración y tus elecciones de privacidad, Google y sus socios pueden tratar información como identificadores publicitarios, dirección IP, datos aproximados de ubicación derivados de la conexión, interacción con anuncios, información del dispositivo y diagnósticos asociados al servicio publicitario.</p>
+      </section>
+
+      <section id="almacenamiento">
+        <h2>3. Almacenamiento de la información financiera</h2>
+        <p>En la versión gratuita actual, los registros financieros que introduces en Saviro se almacenan localmente en tu dispositivo para el funcionamiento de la aplicación. No necesitas crear una cuenta ni enviar esos registros a un servidor de InnovaJKSoft para utilizar las funciones locales de registro y consulta.</p>
+        <p>Los datos financieros locales y los datos técnicos tratados por los servicios publicitarios son categorías distintas. El funcionamiento local de los registros no impide que Google AdMob trate determinados datos técnicos para prestar sus servicios.</p>
+        <p>Si en el futuro se incorporan funciones opcionales de sincronización, cuentas o servicios en la nube, esta política se actualizará antes de su utilización.</p>
+      </section>
+
+      <section id="publicidad">
+        <h2>4. Google AdMob y proveedores externos</h2>
+        <p>Saviro Free incorpora <strong>Google AdMob</strong>, un servicio de Google que permite mostrar y medir anuncios. Google y los socios publicitarios que correspondan pueden utilizar tecnologías de identificación y almacenamiento en el dispositivo conforme a los permisos, opciones de privacidad y normas aplicables.</p>
+        <p>Para conocer cómo Google utiliza información procedente de aplicaciones que usan sus servicios, consulta:</p>
+        <ul>
+          <li><a href="https://policies.google.com/privacy?hl=es" target="_blank" rel="noopener noreferrer">Política de Privacidad de Google</a></li>
+          <li><a href="https://policies.google.com/technologies/partner-sites?hl=es" target="_blank" rel="noopener noreferrer">Cómo utiliza Google la información de sitios y aplicaciones que usan sus servicios</a></li>
+        </ul>
+        <p>La presencia de publicidad no implica que InnovaJKSoft entregue a los anunciantes tus registros locales de ingresos y gastos.</p>
+      </section>
+
+      <section id="consentimiento">
+        <h2>5. Consentimiento y preferencias publicitarias</h2>
+        <p>Cuando la normativa aplicable lo requiera, Saviro mostrará un mensaje de consentimiento o de opciones de privacidad facilitado mediante la plataforma de gestión de consentimiento de Google. Podrás aceptar, rechazar o gestionar determinadas finalidades según las opciones disponibles para tu región.</p>
+        <p>Tu decisión puede afectar al tipo de anuncios que se presentan. Rechazar determinados usos de datos no garantiza que desaparezcan todos los anuncios: podrían mostrarse anuncios limitados o no personalizados cuando proceda.</p>
+        <p>También puedes revisar los controles de privacidad y seguimiento publicitario disponibles en los ajustes de Android o iOS. Los mecanismos exactos pueden variar según el sistema operativo y la región.</p>
+      </section>
+
+      <section id="permisos">
+        <h2>6. Permisos del dispositivo</h2>
+        <p>Según las funciones que utilices, Saviro puede solicitar acceso a la cámara o a la biblioteca de imágenes para seleccionar o adjuntar fotografías relacionadas con registros de la aplicación. Estos accesos están sujetos a los permisos del sistema operativo y pueden modificarse desde sus ajustes.</p>
+        <p>La aplicación también puede utilizar conectividad a Internet para cargar anuncios y sus mensajes de privacidad. Los permisos y accesos efectivamente solicitados dependen de las funciones disponibles en la versión instalada.</p>
+      </section>
+
+      <section id="seguridad">
+        <h2>7. Seguridad y conservación</h2>
+        <p>Los registros financieros locales permanecen en el almacenamiento de la aplicación en tu dispositivo, sujeto a las medidas de seguridad y copias de respaldo que proporcione el sistema operativo. Te recomendamos mantener tu dispositivo protegido y actualizado.</p>
+        <p>Los periodos de conservación de datos gestionados por Google u otros proveedores externos se rigen por sus respectivas políticas. InnovaJKSoft no controla directamente esos periodos.</p>
+      </section>
+
+      <section id="derechos">
+        <h2>8. Derechos, consultas y eliminación</h2>
+        <p>Puedes gestionar los registros financieros desde las funciones disponibles de Saviro. Para eliminar completamente la información local de la aplicación, puedes desinstalarla o utilizar las opciones de borrado de datos que ofrezca tu sistema operativo. Algunas copias de seguridad del dispositivo pueden conservar información durante un tiempo adicional según su configuración.</p>
+        <p>La eliminación de datos locales de Saviro no elimina automáticamente los datos que proveedores externos hayan tratado de forma independiente. Para ejercer derechos respecto de esos datos, consulta las herramientas y políticas del proveedor correspondiente.</p>
+        <p>Para preguntas o solicitudes de privacidad dirigidas a InnovaJKSoft, escribe a <a href="mailto:saviro@innovajksoft.net">saviro@innovajksoft.net</a>.</p>
+      </section>
+
+      <section id="menores">
+        <h2>9. Menores de edad</h2>
+        <p>Saviro es una herramienta de organización de finanzas personales y no está diseñada específicamente para menores de edad. No buscamos recopilar intencionalmente información personal de menores mediante la aplicación. Si consideras que existe una situación relacionada con datos de un menor, contáctanos para revisarla.</p>
+      </section>
+
+      <section id="cambios">
+        <h2>10. Cambios en esta política</h2>
+        <p>Podemos actualizar esta política cuando cambien las funciones de Saviro, los proveedores tecnológicos o los requisitos legales. La versión vigente se encontrará en esta página y mostrará su fecha de última actualización.</p>
+      </section>
+    </article>
   </main>
-
-  <footer>
-    © 2026 InnovaJKSoft · Saviro
-  </footer>
+  <footer class="footer">© 2026 InnovaJKSoft · Saviro · <a href="mailto:saviro@innovajksoft.net">Contacto de privacidad</a></footer>
 </body>
 </html>
-
